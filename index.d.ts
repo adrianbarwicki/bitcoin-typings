@@ -6,7 +6,7 @@
 
 export { Address, AddressDetailsResult, AddressUnconfirmedResult, AddressUtxoResult } from "./typings/Address";
 export { BIP21Object, BitcoinCash, ByteCountInput, ByteCountOutput, EncodeBIP21Options } from "./typings/BitcoinCash";
-export { Blockchain, BlockchainInfo, BlockHeader } from "./typings/Blockchain";
+export { Blockchain, BlockchainInfo, BlockHeader, MempoolInfo } from "./typings/Blockchain";
 export { Control, NodeInfo, NodeMemoryInfo } from "./typings/Control";
 export { ECPair } from "./typings/ECPair";
 export { Generating } from "./typings/Generating";

@@ -23,7 +23,7 @@ export declare interface Blockchain {
   verifyTxOutProof(proof:string): Promise<string[]>;
 }
 
-declare interface MempoolInfo {
+export declare interface MempoolInfo {
   size: number;
   bytes: number;
   usage: number;
@@ -31,7 +31,7 @@ declare interface MempoolInfo {
   mempoolminfee: number;
 }
 
-declare interface BlockchainInfo {
+export declare interface BlockchainInfo {
   chain: string;
   blocks: number;
   headers: number;
@@ -45,7 +45,7 @@ declare interface BlockchainInfo {
   bip9_softforks: object;
 }
 
-declare interface BlockHeader {
+export declare interface BlockHeader {
   hash: string;
   confirmations: number;
   height: number;
@@ -62,7 +62,7 @@ declare interface BlockHeader {
 	nextblockhash: string;
 }
 
-declare interface ChainTip {
+export declare interface ChainTip {
   height:number;
   hash: string;
   branchlen: number;
