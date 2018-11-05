@@ -1,0 +1,23 @@
+{
+  "name": "bitcoin-typings",
+  "version": "0.0.2",
+  "description": "Typings for bitcoin",
+  "scripts": {
+  },
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "main": "",
+  "types": "./index.d.ts",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/panda-suite/bitcoin-typings.git"
+  },
+  "dependencies": {
+    "buffer": "^5.2.1"
+  },
+  "devDependencies": {
+  }
+}
